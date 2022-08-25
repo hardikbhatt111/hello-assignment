@@ -1,39 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-24T19:12:58 IST" name="Suite" finished-at="2022-08-24T19:14:28 IST" duration-ms="90189">
+  <suite started-at="2022-08-25T13:05:59 IST" name="Suite" finished-at="2022-08-25T13:07:30 IST" duration-ms="90257">
     <groups>
     </groups>
-    <test started-at="2022-08-24T19:12:58 IST" name="Test" finished-at="2022-08-24T19:14:28 IST" duration-ms="90189">
+    <test started-at="2022-08-25T13:05:59 IST" name="Test" finished-at="2022-08-25T13:07:30 IST" duration-ms="90257">
       <class name="demo.site.HC_HomePage">
-        <test-method is-config="true" signature="launch()[pri:0, instance:demo.site.HC_HomePage@7bab3f1a]" started-at="2022-08-24T19:12:58 IST" name="launch" finished-at="2022-08-24T19:13:27 IST" duration-ms="29304" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:demo.site.HC_HomePage@38aa816f]" started-at="2022-08-25T13:05:59 IST" name="launch" finished-at="2022-08-25T13:06:14 IST" duration-ms="14306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="eventPage()[pri:8, instance:demo.site.HC_HomePage@7bab3f1a]" started-at="2022-08-24T19:13:27 IST" name="eventPage" finished-at="2022-08-24T19:14:28 IST" duration-ms="60813" status="FAIL">
+        <test-method signature="dropBoxSelection()[pri:1, instance:demo.site.HC_HomePage@38aa816f]" started-at="2022-08-25T13:06:14 IST" name="dropBoxSelection" finished-at="2022-08-25T13:06:16 IST" duration-ms="2300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropBoxSelection -->
+        <test-method signature="keyword()[pri:2, instance:demo.site.HC_HomePage@38aa816f]" started-at="2022-08-25T13:06:16 IST" name="keyword" finished-at="2022-08-25T13:06:19 IST" duration-ms="3183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- keyword -->
+        <test-method signature="records()[pri:3, instance:demo.site.HC_HomePage@38aa816f]" started-at="2022-08-25T13:06:19 IST" name="records" finished-at="2022-08-25T13:06:29 IST" duration-ms="10196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- records -->
+        <test-method signature="validatingList()[pri:5, instance:demo.site.HC_HomePage@38aa816f]" started-at="2022-08-25T13:06:29 IST" name="validatingList" finished-at="2022-08-25T13:07:08 IST" duration-ms="38893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingList -->
+        <test-method signature="startDate()[pri:6, instance:demo.site.HC_HomePage@38aa816f]" started-at="2022-08-25T13:07:08 IST" name="startDate" finished-at="2022-08-25T13:07:13 IST" duration-ms="4863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDate -->
+        <test-method signature="endDate()[pri:7, instance:demo.site.HC_HomePage@38aa816f]" started-at="2022-08-25T13:07:13 IST" name="endDate" finished-at="2022-08-25T13:07:18 IST" duration-ms="5248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endDate -->
+        <test-method signature="eventPage()[pri:8, instance:demo.site.HC_HomePage@38aa816f]" started-at="2022-08-25T13:07:18 IST" name="eventPage" finished-at="2022-08-25T13:07:30 IST" duration-ms="11205" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[3]/a[6]/div/h4"}
+              <![CDATA[no such element: Unable to locate element: {"method":"tag name","selector":"h3"}
   (Session info: chrome=104.0.5112.81)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'ISIPLMUMLP144', ip: '172.29.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ada163aaa6fb46f8653f1fd71363fbe2, findElement {using=xpath, value=//*[@id="app"]/div[3]/a[6]/div/h4}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\hardikb\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:64184}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64184/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ada163aaa6fb46f8653f1fd71363fbe2]]>
+Command: [11bc58d2acd3eb32240b7d2c6eaa67a0, findElement {using=tag name, value=h3}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\hardikb\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54680}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54680/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 11bc58d2acd3eb32240b7d2c6eaa67a0]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[3]/a[6]/div/h4"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"tag name","selector":"h3"}
   (Session info: chrome=104.0.5112.81)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'ISIPLMUMLP144', ip: '172.29.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ada163aaa6fb46f8653f1fd71363fbe2, findElement {using=xpath, value=//*[@id="app"]/div[3]/a[6]/div/h4}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\hardikb\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:64184}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64184/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ada163aaa6fb46f8653f1fd71363fbe2
+Command: [11bc58d2acd3eb32240b7d2c6eaa67a0, findElement {using=tag name, value=h3}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\hardikb\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54680}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54680/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 11bc58d2acd3eb32240b7d2c6eaa67a0
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -50,7 +74,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at demo.site.HC_HomePage.eventPage(HC_HomePage.java:201)
+at demo.site.HC_HomePage.eventPage(HC_HomePage.java:207)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -85,7 +109,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- eventPage -->
-        <test-method is-config="true" signature="destroy()[pri:0, instance:demo.site.HC_HomePage@7bab3f1a]" started-at="2022-08-24T19:14:28 IST" name="destroy" finished-at="2022-08-24T19:14:28 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="destroy()[pri:0, instance:demo.site.HC_HomePage@38aa816f]" started-at="2022-08-25T13:07:30 IST" name="destroy" finished-at="2022-08-25T13:07:30 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- destroy -->

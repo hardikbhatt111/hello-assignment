@@ -52,7 +52,7 @@ public class HC_HomePage extends BaseClass {
         wd.manage().window().maximize();
 	}
 	
-	//@Test(priority=1)
+	@Test(priority=1)
 	public void dropBoxSelection() throws Exception
 	{
 		wd.findElement(By.xpath("//*[@id=\"vs1__combobox\"]/div[1]/input")).click();
@@ -61,15 +61,15 @@ public class HC_HomePage extends BaseClass {
 		submit();
 	}
 	
-	//@Test(priority=2)
-		public void keyword() throws Exception
-		{
-			Thread.sleep(3000);
-			wd.findElement(By.id("searchInput")).sendKeys(keyword);
-			submit();
-		}
+	@Test(priority=2)
+	public void keyword() throws Exception
+	{
+		Thread.sleep(3000);
+		wd.findElement(By.id("searchInput")).sendKeys(keyword);
+		submit();
+	}
 	
-	//@Test(priority=3)
+	@Test(priority=3)
 	public void records() throws Exception
 	{
 		Thread.sleep(5000);
@@ -92,7 +92,7 @@ public class HC_HomePage extends BaseClass {
 		actions2.moveToElement(we1).click().perform();
 	}
 	
-	//@Test(priority=5)
+	@Test(priority=5)
 	public void validatingList() throws Exception
 	{
 		ExcelUtility.CreateExcel("HC-Excel", LocalDate.now().toString());
@@ -106,7 +106,7 @@ public class HC_HomePage extends BaseClass {
 		listCheck();
 	}
 	
-	//@Test(priority=6)
+	@Test(priority=6)
 	public void startDate() throws Exception
 	{
 		wd.navigate().refresh();
@@ -142,7 +142,7 @@ public class HC_HomePage extends BaseClass {
 		}
 	}
 	
-	//@Test(priority=7)
+	@Test(priority=7)
 	public void endDate() throws Exception
 	{
 		wd.navigate().refresh();
@@ -194,7 +194,7 @@ public class HC_HomePage extends BaseClass {
 		    	  Thread.sleep(3000);
 		    	  submit();
 		      }
-		      if(i==20)
+		      if(i==6)
 		    	  break;
 		      
 		      Thread.sleep(3000);

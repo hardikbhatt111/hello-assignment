@@ -1,0 +1,9 @@
+set projectLocation=C:\Users\hardikb\eclipse-workspace\hello-assignment
+
+cd %projectLocation%
+
+set classpath=%projectLocation%\bin;%projectLocation%\lib\*
+
+java -cp %classpath% org.testng.TestNG %projectLocation%\testng.xml
+
+pause
